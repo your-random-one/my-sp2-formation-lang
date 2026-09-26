@@ -1,0 +1,32 @@
+Key: 
+S - strobe
+F - slower flash
+# - on
+@ - strobed in command
+% - flashed in command
+* - any
+- - off
+
+The lights are in this structure:
+1 234 432 5
+
+1 is blue
+2 is yellow
+3 is white
+4 is red
+5 is orange
+
+Directions:
+
+S *** *** * - turn left
+* *** *** S - turn right
+* S** **S * - climb
+* **S S** * - descend
+# S** **S # - increase speed
+# **S S** # - decrease speed
+
+Subjects (used before a direction):
+
+@@#@@#@@ - This aircraft will ___
+%%#%%#%% - Is ___ needed for any aircraft?
+@@S@@S@@ - The aircraft in the general area of (the other flashed direction) is being directed to (following direction without white).
